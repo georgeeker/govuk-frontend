@@ -53,6 +53,9 @@
   5px -1px 0 1px govuk-colour("yellow"),
   -3px 1px 0 3px govuk-colour("black"),
   3px 1px 0 3px govuk-colour("black");
+  // When link is focussed, hide the default underline since the
+  // box shadow adds the "underline"
+  text-decoration: none;
 }
 
 @mixin govuk-focusable-text-link {
